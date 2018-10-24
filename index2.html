@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				font-size: 20px;
+color: #333;
+font-family:  "微软雅黑",'Times New Roman',serif;
+
+			}
+			
+			iframe {
+				display: block;
+				width: 500px;
+				height: 400px;
+				border: 0;
+				margin: 20px
+			}
+			
+			.fl {
+				float: left
+			}
+			
+			.fr {
+				float: right
+			}
+			
+			ul,
+			li {
+				margin: 0;
+				padding: 0;
+				list-style: none
+			}
+			
+			a {
+				text-decoration: none;
+				color: #fff
+			}
+			
+			.biaoti {
+				background: url(post-bg.jpg) no-repeat;
+				text-align: center;
+				line-height: 35px;
+				color: #fff;
+				padding: 200px 0;
+				width: 100%
+			}
+			
+			h1 {
+				font-size: 55px;
+				font-weight: 600
+			}
+			
+			h3 {
+				font-weight: 600;
+				font-size: 20px
+			}
+			p{
+				font-family:'Times New Roman' ;
+				line-height: 1.5;
+				margin: 30px 0;
+			}
+			.container {
+				width: 1400px;
+				margin: 8px auto;
+				height: 60px;
+				line-height: 60px
+			}
+			
+			.container a:hover {
+				color: #ccc
+			}
+			
+			#navbarResponsive li {
+				float: left;
+				margin: 0 20px
+			}
+			
+			#mainNav {
+				width: 1920px;
+				position: absolute;
+				font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+				-webkit-transition: background-color .2s;
+				-moz-transition: background-color .2s;
+				transition: background-color .2s;
+				-webkit-transform: translate3d(0, 0, 0);
+				-moz-transform: translate3d(0, 0, 0);
+				-ms-transform: translate3d(0, 0, 0);
+				-o-transform: translate3d(0, 0, 0);
+				transform: translate3d(0, 0, 0);
+				-webkit-backface-visibility: hidden
+			}
+			
+			#mainNav .navbar-brand {
+				font-weight: 800;
+				color: #fff
+			}
+			
+			#mainNav .navbar-brand:hover {
+				font-weight: 800;
+				color: #ccc
+			}
+			
+			#mainNav .navbar-nav>li.nav-item>a {
+				font-size: 12px;
+				font-weight: 800;
+				letter-spacing: 1px;
+				text-transform: uppercase
+			}
+			
+			#mainNav.is-fixed {
+				position: fixed;
+				top: -77px;
+				-webkit-transition: -webkit-transform .2s;
+				-moz-transition: -moz-transform .2s;
+				transition: transform .2s;
+				border-bottom: 1px solid #fff;
+				background-color: rgba(255, 255, 255, .9)
+			}
+			
+			#mainNav.is-fixed .navbar-brand {
+				color: #333
+			}
+			
+			#mainNav.is-fixed .navbar-brand:focus,
+			#mainNav.is-fixed .navbar-brand:hover {
+				color: #0085a1
+			}
+			
+			#mainNav.is-fixed .navbar-nav>li.nav-item>a {
+				color: #333
+			}
+			
+			#mainNav.is-fixed .navbar-nav>li.nav-item>a:focus,
+			#mainNav.is-fixed .navbar-nav>li.nav-item>a:hover {
+				color: #0085a1
+			}
+			
+			#mainNav.is-visible {
+				-webkit-transform: translate3d(0, 100%, 0);
+				-moz-transform: translate3d(0, 100%, 0);
+				-ms-transform: translate3d(0, 100%, 0);
+				-o-transform: translate3d(0, 100%, 0);
+				transform: translate3d(0, 100%, 0)
+			}
+			#body{width:1400px;margin:0 auto}
+			#body .you{text-align: left;width:850px}
+			#bijiao{width:1000px;margin:0 auto}
+			#bijiao .nei{width:475px;background: #f3f3f3;height:500px;padding:10px;}
+		</style>
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+			<div class="container">
+				<a class="navbar-brand fl" href="index.html">CODE1230</a>
+
+				<div class="collapse navbar-collapse fr" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Background</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index2.html">Compare</a>
+						</li>
+<li class="nav-item">
+							<a class="nav-link" href="index7.html">Design</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="index3.html">Downloads</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="biaoti">
+			<h1>Map Compare and Analysis</h1>
+			<h3>Frank z5211023</h3>
+		</div>
+<div id="body">
+	<div class="zuo fl">
+		<div>Male proportion for all area manager in total people</div>
+		<iframe src="index4.html"></iframe>
+		<div>Famle proportion for all area manager in total people</div>
+		<iframe src="index5.html"></iframe>
+		<div>Male minus female percentage for all area manager</div>
+		<iframe src="index6.html"></iframe>
+	</div>
+	<div>
+	<p>The first two maps are height is expressed as the number of male or female managers in all areas of work in the region, the color is expressed as the proportion of male or female positions in the region as managers, the first map red indicates 90%-80% Between (nearly 90% of the region), between 70% and 60% in black, and between 60% and 40% in purple.The second map blue indicates 70%-60%, purple indicates 50%-40%, and green indicates 30%-20%. </p>
+	</div>
+	<div class="you fr">
+		<h1>First Map</h1>
+	<p>This picture shows the proportion of men in the total number of managers in the total, red is the larger area, we can see that there are a lot of red areas near Sydney, it can also indicate that there are more employment opportunities in Sydney. Men are vying to get to the manager's position. From the data, in some areas, the number of male managers is 5% more than that of female managers, which leads to a large number of male managers in Sydney. This also shows that There are more engineering and technical jobs in these areas, which are very suitable for men.</p>
+    <p><br></p>
+	</div>
+	 <div class="you fr">
+		<h1>Second Map</h1>
+	<p>The second map shows the proportion of women in the total number of managers in the total, blue is the largest percentage, but in the same area, some women are on average about 10% lower in all areas of work, but some areas account for Compared with men, it also shows that women's ability to work is becoming stronger. It also shows that women are slowly becoming good at some other areas of work. In a small number of regions, women account for a total of positions in managers. More, it is possible that most of the area is in the fields of education, health, etc., so most women are managers.</p>
+	<p><br></p>
+	</div>
+
+	<div class="you fr">
+		<h1>Third Map</h1>
+	<p>The third map is a comparative map. The orange color is negative, the green color is positive, and the negative number means that the number of women in the region is more than the number of managers in the total number of people. The positive number represents the male in the area. In the total number of people, the number of managers is more than that of women. We can see from the figure that both of these situations account for about 50%. So we can also know that women’s ability to work is increasing, but most of this area In remote areas, in the coastal areas and near Sydney, most of them are still green, which means that there are more males than managers in all of them. But from now on, it is now basically equal work for men and women. Added some occupations that women are more suitable for. And now men and women have gained equality in the workplace.</p>
+    <p><br><br><br></p>
+
+	</div>
+	<div class="zuo f1">
+		<h1>Conclusion</h1>
+	<p>In summary, the ratio of male to female positions in all areas of work is not very large in NSW. In some areas, the proportion of female positions as managers is more than that of men, so we can see that In several aspects, the first aspect of these areas, the main areas of work should be education, health and other areas of work, the second aspect of women's work ability is gradually becoming stronger, the third aspect is that men and women are basically in the workplace Equality</p>
+	</div>
+	<div class="zuo f1">
+		<h1>Latte Line</h1>
+	<p>The Latte line divides the NSW state into the south and the north. We can see from the third picture that the situation of the managers in the south and north of men and women in all fields of work is basically the same, because there is almost the same green (positive number) : Men are more managers in all fields than women. Yellow (negative: women in all fields are managers more than men), but the map is closer and closer to the green areas in the north is still more dense Especially concentrated in the coastal areas, but the overall proportion is roughly the same, so that men and women are now basically equal in the workplace, and women's ability is increasing.</p>
+	</div>
+	<img width="50%"src="wwww.PNG"/>
+	<br><br>
+
+		<script src="jquery.js"></script>
+		<script src="clean-blog.js"></script>
+	</body>
+
+</html>
